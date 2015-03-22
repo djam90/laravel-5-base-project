@@ -8,6 +8,11 @@ This repository aims to speed up the setup process when starting a new Laravel 5
 - [Laravel 5 Extended Generators]
 
 ##Installation
+1. Download the repository as a zip file
+2. Extract the contents into the desired location
+3. Open a command line window in this directory
+4. Run `composer install` which will install all packages, and also create the IDE helper for use in PHPStorm
+5. Begin your project
 
 
 
