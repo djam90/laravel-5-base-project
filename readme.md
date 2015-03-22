@@ -1,23 +1,26 @@
-## Laravel PHP Framework
+# Laravel 5 Base Project
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This repository aims to speed up the setup process when starting a new Laravel 5 project. It is quite opinionated but it works for me.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+##Packages Included
+- [Laravel 5 IDE Helper Generator]
+- [Laravel Debugbar]
+- [Laravel 5 Extended Generators]
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+##Installation
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+##Optional Extras
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-### License
+#####To publish the IDE Helper config file, please run:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+```
+php artisan vendor:publish --provider=barryvdh/laravel-ide-helper --tag=config
+```
+
+
+[Laravel 5 IDE Helper Generator]:https://github.com/barryvdh/laravel-ide-helper
+[Laravel Debugbar]:https://github.com/barryvdh/laravel-debugbar
+[Laravel 5 Extended Generators]:https://github.com/laracasts/Laravel-5-Generators-Extended
